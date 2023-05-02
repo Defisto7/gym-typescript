@@ -3,6 +3,7 @@ import Home from "@/scenes/home";
 import Behefits from "@/scenes/behefits";
 import OurClasses from "@/scenes/ourclasses";
 import ContactUs from "@/scenes/contactus";
+import Footer from "@/scenes/footer";
 import { useState, useEffect } from "react";
 import { SelectedPage } from "@/shared/types";
 
@@ -35,6 +36,7 @@ function App() {
       <Behefits setSelectedPage={setSelectedPage} />
       <OurClasses setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage} />
+      <Footer />
     </div>
   );
 }
