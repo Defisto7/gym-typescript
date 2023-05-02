@@ -9,3 +9,8 @@ export enum SelectedPage {
     title: string;
     description: string;
   }
+  export interface ClassType {
+    name: string;
+    description?: string;
+    image: string;
+  }
